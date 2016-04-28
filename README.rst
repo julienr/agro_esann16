@@ -18,11 +18,16 @@ We provide examples as jupyter/ipython notebooks.
 Have a look at the `notebooks/1_plot.ipynb <notebooks/1_plot.ipynb>`_ notebook for an example on how
 to load the dataset.
 
-.. note::
+License
+-------
 
-  Please note that this dataset is free to use for research purposes. Please cite
-  our paper if you use the dataset in your research. Also consider sending us an
-  email to let us know what cool stuff you did :-)
+This dataset is free to use for research purposes. Please cite
+our paper if you use the dataset in your research. Also consider sending us an
+email to let us know what cool stuff you did :-)
+
+Contact us if you want to use this for a commercial purpose.
+
+The code is licensed under the MIT license.
 
 
 loading the dataset in python
