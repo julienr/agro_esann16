@@ -1,15 +1,14 @@
 The agrovision dataset
 ======================
 
-This is the agrovision dataset presented in our ESANN'16 `paper <cnn_histnn_esann16_paper.pdf>`_.
+Welcome to the agrovision dataset webpage. This dataset is contains a high
+resolution RGB image (5cm ground resolution) of an experimental farm field
+containing 22 different crops. This is a texture classification dataset that
+was presented in our ESANN'16 `paper <cnn_histnn_esann16_paper.pdf>`_.
 
 .. image:: _imgs/rgb.png
   :height: 300px
   :align: center
-
-Welcome to the agrovision dataset webpage. This dataset is contains a high
-resolution RGB image (5cm ground resolution) of an experimental farm field
-containing 22 different crops.
 
 The dataset also includes a digital surface model of the area.
 
@@ -53,5 +52,5 @@ to perform Histograms extraction the GPU.
 
 Contact
 -------
-Julien Rebetez, Héctor F. Satizabal, Matteo Mota, Dorothea Noll, Lucie Büchi,
+<a href="mailto:julien.rebetez@heig-vd.ch">Julien Rebetez</a>, Héctor F. Satizabal, Matteo Mota, Dorothea Noll, Lucie Büchi,
 Marina Wendling, Bertrand Cannelle, Andres Perez-Uribe and Stéphane Burgos
