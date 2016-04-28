@@ -2,3 +2,5 @@
 .ipynb_checkpoints/_convert_data-checkpoint.ipynb
 *.pyc
 *~
+data/qgis/2013_10_08_rgb.tif
+notebooks/.ipynb_checkpoints/2_per_class_plot-checkpoint.ipynb
