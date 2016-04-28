@@ -5,14 +5,21 @@ Welcome to the agrovision crop texture classification dataset webpage.
 This dataset is contains a high resolution RGB image (5cm ground resolution)
 of an experimental farm field containing 22 different crops. This is a texture
 classification dataset that
-was presented in our ESANN'16 `paper <cnn_histnn_esann16_paper.pdf>`_.
+was presented in our ESANN'16 `paper <esann16_paper.pdf>`_ :
 
-.. image:: _imgs/rgb.png
-  :width: 45%
+
+  Augmenting a convolutional neural network with local histograms -
+  A case study in crop classification from high-resolution UAV imagery,
+  *Julien Rebetez, Héctor F. Satizàbal, Matteo Mota, Dorothea Noll,
+  Lucie Büchi, Marina Wendling, Bertrand Cannelle, Andres Perez-Uribe and Stéphane Burgos*
+
+
+.. image:: _imgs/rgb_500.png
+  :width: 300px
   :target: _imgs/rgb.png
 
-.. image:: _imgs/per_class_example.png
-  :width: 45%
+.. image:: _imgs/per_class_example_500.png
+  :width: 300px
   :target: _imgs/per_class_example.png
 
 The dataset also includes a digital surface model of the area.
@@ -62,16 +69,14 @@ The crop types are
   Vesce
 
 
-
-
 loading the dataset in python
 .............................
 The ``data/data.joblib`` file contains the image and the labels and the image
 in a format that's easy to load from python using ``joblib.load``.
 
 
-QGIS
-....
+loading the dataset in QGIS
+...........................
 The ``data/qgis`` folder contains the tif for the RGB and the DSM images as
 well as geojson for the label polygons.
 
@@ -99,5 +104,5 @@ The code is licensed under the MIT license.
 
 Contact
 -------
-<a href="mailto:julien.rebetez@heig-vd.ch">Julien Rebetez</a>, Héctor F. Satizabal, Matteo Mota, Dorothea Noll, Lucie Büchi,
+Julien Rebetez (julien.rebetez at heig-vd.ch), Héctor F. Satizabal, Matteo Mota, Dorothea Noll, Lucie Büchi,
 Marina Wendling, Bertrand Cannelle, Andres Perez-Uribe and Stéphane Burgos
